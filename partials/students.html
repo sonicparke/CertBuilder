@@ -1,0 +1,23 @@
+<div class="row">
+    <div ng-controller="AdminStudentCtrl">
+      <h1>{{PageTitle}}</h1>
+
+      <form ng-submit="AddNewStudent()">
+        <div class="form-group col-md-9 col-xs-8">
+          <label class="sr-only" for="add-todo">Student Name</label>
+          <input ng-model="newStudentName" type="text" class="form-control input-lg" id="add-rank" placeholder="Name">
+        </div>
+        <div class="form-group col-md-9 col-xs-8">
+          <label class="sr-only" for="add-todo">Current Rank</label>
+          <input ng-model="newStudentCurrentRank" type="text" class="form-control input-lg" id="add-rank" placeholder="Current Rank">
+        </div>
+        <button type="submit">Add</button>
+      </form>
+      <div>
+        <ul>
+          <li>Brad McAlister, Purple</li>
+          <li>Aric McAlister, Rec. Black</li>
+        </ul>
+      </div>
+    </div>
+</div>

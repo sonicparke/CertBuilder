@@ -1,0 +1,143 @@
+/*li {
+    line-height: 30px;
+}
+*/
+.container {
+    width: 100%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.appbar {
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #1778bd;
+}
+
+.title {
+    font-family: 'OpenSansLight';
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.logo {
+    padding: 10px 0;
+    margin-right: 20px;
+}
+
+.display-inlineBlock {
+    display: inline-block;
+}
+
+.display-inline {
+    display: inline;
+}
+
+.savingLoader {
+    font-family: 'OpenSansLight';
+    position: absolute;
+    top: 75px;
+    left: 50%;
+    width: 56px;
+    margin-left: -54px;
+}
+
+.ng-invalid .formRequire {
+    border-color: #e9322d;
+    -webkit-box-shadow: 0 0 6px #f8b9b7;
+    -moz-box-shadow: 0 0 6px #f8b9b7;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+
+.alert.selectedPrinter {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-top: 7px;
+    padding-bottom: 8px;
+    font-size: 12px;
+}
+
+.well .heading {
+    margin-top: 0;
+}
+
+/*.tabs-left {
+    margin-left: -30px;
+}*/
+
+.pad-top-20 {
+    padding-top: 20px;
+}
+
+.pad-bottom-20 {
+    padding-bottom: 20px;
+}
+
+.pad-right-5 {
+    padding-right: 5px;
+}
+
+.no-pad-left {
+    padding-left: 0;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    z-index: 2;
+    /*color: #fff;*/
+    color: #468847;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.heading .badge {
+    font-size: inherit;
+}
+
+.btn-xs {
+    font-size: 13px;
+}
+
+.form-group {
+    height: 30px;
+    margin-bottom: 15px;
+}
+/*a.list-group-item:hover, a.list-group-item:focus {
+    text-decoration: none;
+    background-color: #f5f5f5;
+}*/
+
+
+/*.nav {
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.nav>li>a {
+    padding: 10px;
+    line-height: 1em;
+    color: #ffffff;
+
+}
+
+.nav>li>a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid #ffffff;
+    background-color: #1778bd;
+}
+
+.nav .selected {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #1778bd;
+}
+
+.nav-horizontal>li {
+    float: left;
+    margin-right: 10px;
+}*/
+
